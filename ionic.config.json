@@ -1,0 +1,7 @@
+{
+  "name": "jaoapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
