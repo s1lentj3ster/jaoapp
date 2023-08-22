@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 
-import Example from '../components/Example.vue';
+import TabBar from '../components/TabBar.vue';
 
 const routes= [
   {
@@ -9,7 +9,7 @@ const routes= [
   },
   {
     path: '/',
-    component: Example,
+    component: TabBar,
     children: [
       {
         path: '',
@@ -20,16 +20,16 @@ const routes= [
         component: () => import('../views/HomePage.vue'),
       },
       {
-        path: 'radio',
-        component: () => import('../views/RadioPage.vue'),
+        path: 'reviews',
+        component: () => import('../views/ReviewsPage.vue'),
       },
       {
-        path: 'library',
-        component: () => import('../views/LibraryPage.vue'),
+        path: 'menu',
+        component: () => import('../views/MenuPage.vue'),
       },
       {
-        path: 'search',
-        component: () => import('../views/SearchPage.vue'),
+        path: 'schedule',
+        component: () => import('../views/SchedulePage.vue'),
       },
     ],
   },

@@ -27,7 +27,34 @@
   </template>
   
   <script>
+  import {
+    IonContent,
+    IonHeader,
+    IonPage,
+    IonTitle,
+    IonToolbar,
+    IonItem,
+    IonLabel,
+    IonDatetime,
+    IonInput,
+    IonTextarea,
+    IonButton
+  } from '@ionic/vue';
+  
   export default {
+    components: {
+      IonContent,
+      IonHeader,
+      IonPage,
+      IonTitle,
+      IonToolbar,
+      IonItem,
+      IonLabel,
+      IonDatetime,
+      IonInput,
+      IonTextarea,
+      IonButton
+    },
     data() {
       return {
         date: '',

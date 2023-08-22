@@ -6,21 +6,21 @@
           <ion-tab-button tab="home" href="/home">
             <ion-icon :icon="home" />
             <ion-label>Home</ion-label>
-          </ion-tab-button>
+          </ion-tab-button>        
   
-          <ion-tab-button tab="radio" href="/radio">
-            <ion-icon :icon="chatbox" />
-            <ion-label>Reviews</ion-label>
-          </ion-tab-button>
-  
-          <ion-tab-button tab="library" href="/library">
+          <ion-tab-button tab="menu" href="/menu">
             <ion-icon :icon="book" />
             <ion-label>Menu</ion-label>
           </ion-tab-button>
   
-          <ion-tab-button tab="search" href="/search">
+          <ion-tab-button tab="schedule" href="/schedule">
             <ion-icon :icon="calendar" />
             <ion-label>Schedule</ion-label>
+          </ion-tab-button>
+
+          <ion-tab-button tab="reviews" href="/reviews">
+            <ion-icon :icon="chatbox" />
+            <ion-label>Reviews</ion-label>
           </ion-tab-button>
         </ion-tab-bar>
       </ion-tabs>
