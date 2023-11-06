@@ -14,16 +14,17 @@
         <ion-title>Menu</ion-title>
       </ion-toolbar>
     </ion-header>
-    <ion-content>
-      <div class="example-content">Menu content</div>
+    <ion-content>      
+      <vehicle-selector></vehicle-selector>
     </ion-content>
   </ion-page>
 </template>
 
-<script lang="ts">
+<script>
   import { IonHeader, IonToolbar, IonTitle, IonContent, IonPage } from '@ionic/vue';
+  import VehicleSelector from '../components/vehicle_select/VehicleSelector.vue';
 
   export default {
-    components: { IonHeader, IonToolbar, IonTitle, IonContent, IonPage },
+    components: { IonHeader, IonToolbar, IonTitle, IonContent, IonPage, VehicleSelector },
   };
 </script>
